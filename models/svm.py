@@ -13,7 +13,7 @@ class SVM:
         self.w = None
         self.b = None
 
-    def train(self, x, y):
+    def fit(self, x, y):
         """
         Train the SVM using gradient descent.
 
