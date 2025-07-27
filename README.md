@@ -9,17 +9,16 @@ This repository contains five foundational machine learning algorithms implement
 ## 🛠️ Implemented Algorithms
 
 All models are implemented as Python classes with .fit() and .predict() methods, following the familiar scikit-learn API design:
-```
 
-| Task           | Algorithm              | File                        |
-|----------------|------------------------|-----------------------------|
+
+| Task           | Algorithm              | File                       |
+|----------------|------------------------|----------------------------|
 | Classification | Support Vector Machine | models/svm.py              |
 | Classification | Decision Tree          | models/decision_tree.py    |
 | Regression     | Linear Regression      | models/linear_regression.py|
 | Regression     | K-Nearest Neighbors    | models/knn.py              |
 | Clustering     | K-Means                | models/k_means.py          |
 
-```
 
 ---
 
