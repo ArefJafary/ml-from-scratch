@@ -8,7 +8,7 @@ This repository contains five foundational machine learning algorithms implement
 
 📁 Repository Structure
 
-ML-from-scratch/
+```ML-from-scratch/
 ├── models/           # Python classes implementing ML algorithms
 │   ├── svm.py
 │   ├── decision_tree.py
@@ -24,7 +24,7 @@ ML-from-scratch/
 │   ├── Linear_Regression_Demo.ipynb
 │   └── K_Means_Demo.ipynb
 │
-└── README.md
+└── README.md ``` 
 
 
 ---
