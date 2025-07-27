@@ -6,9 +6,26 @@ This repository contains five foundational machine learning algorithms implement
 
 ---
 
-📁 Repository Structure
+## 🛠️ Implemented Algorithms
 
-```ML-from-scratch/
+All models are implemented as Python classes with .fit() and .predict() methods, following the familiar scikit-learn API design:
+```
+
+| Task           | Algorithm              | File                        |
+|----------------|------------------------|-----------------------------|
+| Classification | Support Vector Machine | models/svm.py              |
+| Classification | Decision Tree          | models/decision_tree.py    |
+| Regression     | Linear Regression      | models/linear_regression.py|
+| Regression     | K-Nearest Neighbors    | models/knn.py              |
+| Clustering     | K-Means                | models/k_means.py          |
+
+```
+
+---
+
+## 📁 Repository Structure
+```
+ML-from-scratch/
 ├── models/           # Python classes implementing ML algorithms
 │   ├── svm.py
 │   ├── decision_tree.py
@@ -24,28 +41,15 @@ This repository contains five foundational machine learning algorithms implement
 │   ├── Linear_Regression_Demo.ipynb
 │   └── K_Means_Demo.ipynb
 │
-└── README.md ``` 
+└── README.md
+``` 
 
 
 ---
 
-🧪 Implemented Algorithms
-
-All models are implemented as Python classes with .fit() and .predict() methods, following the familiar scikit-learn API design:
-
-Task	Algorithm	File
-
-Classification	Support Vector Machine	models/svm.py
-Classification	Decision Tree	models/decision_tree.py
-Regression	Linear Regression	models/linear_regression.py
-Regression	K-Nearest Neighbors	models/knn.py
-Clustering	K-Means	models/k_means.py
 
 
-
----
-
-📓 Notebooks
+## 📓 Notebooks
 
 Each model comes with a corresponding demo notebook using small datasets from scikit-learn (e.g., Iris, Wine, etc.) to:
 
@@ -58,7 +62,7 @@ Evaluate performance using standard metrics (e.g., accuracy or R² score)
 
 ---
 
-🔮 Future Work
+## 🔮 Future Work
 
 Add data visualization to notebooks
 
@@ -66,7 +70,7 @@ Extend the repository with more algorithms (e.g., Naive Bayes, Logistic Regressi
 
 ---
 
-⚙️ Requirements
+## ⚙️ Requirements
 
 Python 3.7+
 
